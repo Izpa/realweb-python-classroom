@@ -36,6 +36,10 @@ Realweb python classroom
 * [Интерактивный учебник sql](http://www.sql-tutorial.ru/) - для запросов ко всяким базам данных. Можно просто почитать про оператор select
 * [Открытый курс машинного обучения](https://habr.com/company/ods/blog/322626/) - курс уже закрыт, но материалы всё ещё доступны. В начале пара тем по анализу данных
 
+Записи трансляций занятий
+-------------------------
+1). https://www.youtube.com/watch?v=0Mq-ZSAJRr8
+
 Контакты (telegram)
 -------------------
 * [Чат курса](https://t.me/joinchat/D22GYBFOdzokyiVuJ4Rc0w)
