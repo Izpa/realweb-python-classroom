@@ -10,9 +10,15 @@ right = pd.DataFrame(
      'subject_id': ['sub2', 'sub4', 'sub3', 'sub6', 'sub5']})
 print(left)
 print(right)
-print(pd.merge(left,right,on='id'))
-print(pd.merge(left,right,on=['id','subject_id']))
+# simple join (inner)
+print(pd.merge(left, right, on='id'))
+# inner join on two fields
+print(pd.merge(left, right, on=['id', 'subject_id']))
+# left join
 print(pd.merge(left, right, on='subject_id', how='left'))
+# right join
 print(pd.merge(left, right, on='subject_id', how='right'))
+# outer join
 print(pd.merge(left, right, how='outer', on='subject_id'))
+# inner join
 print(pd.merge(left, right, on='subject_id', how='inner'))
